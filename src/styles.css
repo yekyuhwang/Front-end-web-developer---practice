@@ -1,0 +1,142 @@
+.join {
+  width: 100%;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join .join__title {
+  width: 1100px;
+}
+
+.join .join__line {
+  width: 100%;
+  border-bottom: 5px solid #076585;
+}
+
+.join .join__title h3 {
+  font-size: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.join .join__list {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 30px 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.join .join__list li {
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.join .join__list__title {
+  width: 150px;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #16346a;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join .join__list__title span {
+  margin-left: 5px;
+  color: #ff0000;
+  font-size: 22px;
+}
+
+.join .join__list li .join__list__join {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.join__list__join input {
+  width: 220px;
+  height: 35px;
+  margin-left: 30px;
+  padding: 0 10px;
+
+  border: 1px solid #ccc;
+}
+
+.button__password button {
+  width: 50px;
+  height: 35px;
+  margin-left: 15px;
+  border: transparent;
+  background-color: #279de1;
+  color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button button:nth-child(1) {
+  width: 200px;
+  height: 45px;
+  background-color: #279de1;
+  color: #fff;
+  border: transparent;
+  font-size: 18px;
+  margin-right: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button button:nth-child(1):hover {
+  background-color: #fff;
+  color: #279de1;
+  border: 1px solid #279de1;
+}
+
+.button button:nth-child(2) {
+  width: 200px;
+  height: 45px;
+  background-color: #fb5135;
+  color: #fff;
+  border: transparent;
+  font-size: 18px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button button:nth-child(2):hover {
+  background-color: #fff;
+  color: #fb5135;
+  border: 1px solid #fb5135;
+}
